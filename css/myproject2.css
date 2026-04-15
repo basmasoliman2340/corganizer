@@ -1,0 +1,193 @@
+header {
+    padding-bottom: 80px;
+}
+main {
+    max-width: 100%;
+    margin: auto;
+    flex: 1;
+}
+.home {
+    background: url(../WhatsAppImageat.jpeg) no-repeat center 60px / cover;
+}
+
+.one {
+    color: rgb(31, 27, 157);
+    margin-top: -50px;
+}
+
+nav {
+    background-color: rgb(252, 104, 68);
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+nav a:hover {
+    background: #fff;
+    color: rgb(252, 104, 68);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn {
+    background: rgb(252, 104, 68);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: rgb(255, 158, 106);
+}
+table {
+    width: 70%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: #fff;
+    color: rgb(31, 27, 157);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background: rgb(252, 104, 68);
+    color: #fff;
+}
+.two {
+    color: rgb(31, 27, 157);
+    font-size: 20px;
+    margin-top: -50px;
+}
+.mycourses {
+    background: url(../W.jpeg) no-repeat center / cover;
+}
+footer,
+.four,
+.five {
+    color: rgb(31, 27, 157);
+    text-align: center;
+}
+
+footer {
+    margin-top: 450px;
+}
+
+.four {
+    margin-top: 130px;
+}
+.side-img {
+    width: 800px;
+    position: absolute;
+    right: 20px;
+    top: 200px;
+}
+h2 {
+    color: rgb(31, 27, 157);
+    font-size: 20px;
+    margin-top: -60px;
+}
+.addcourse {
+    width: 40%;
+    margin: 30px 0 0 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.addcourse input,
+.addcourse textarea,
+.addcourse select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.six button,
+.contact-box button {
+    background: rgb(252, 104, 68);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.six button:hover,
+.contact-box button:hover {
+    background: rgb(255, 158, 106);
+}
+.contact {
+    background:url(../contact.png) ;
+}
+
+.contact-box {
+    width: 40%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus {
+    border-color: rgb(252, 104, 68);
+    box-shadow: 0 0 5px rgba(252,104,68,0.4);
+}
+
+.contact-box h2 {
+    color: rgb(31, 27, 157);
+    text-align: center;
+}
+
+.contact-box p {
+    text-align: center;
+    color: #555;    
+}
+.five{
+    margin-top: -10px;
+}
+.seven{
+    margin-top: 0px;
+}
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    table {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}

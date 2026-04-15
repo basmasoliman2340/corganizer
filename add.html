@@ -1,0 +1,54 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/myproject2.css">
+    <title>Add Course</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="mycourses.html">My Courses</a>
+        <a href="add.html">Add Course</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Here you can add courses to your schedule</h2>
+
+        <div class="addcourse">
+            <form>
+                <label>Course Name</label>
+                <input type="text" placeholder="Name" required>
+                <br><br>
+                <label>Instructor</label>
+                <input type="text" placeholder="Instructor" required>
+                <br><br>
+                <label>Credit Hours</label>
+                <input type="number" min="0" max="100" required>
+                <br><br>
+                <label>Select the day for your course</label>
+                <select required>
+                    <option value="">Select Day</option>
+                    <option>Saturday</option>
+                    <option>Sunday</option>
+                    <option>Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wednesday</option>
+                    <option>Thursday</option>
+                </select>
+                <br><br>
+                <label>Notes</label>
+                <textarea placeholder="Notes"></textarea>
+                <br><br>
+                <button type="submit">Add Course</button>
+            </form>
+        </div>
+        <img src="WhatsImagePMmm.jpeg" class="side-img">
+    </section>
+</main>
+<footer class="five">
+    <p>Basma Project - Personal Course Organizer</p>
+</footer>
+</body>
+</html>
